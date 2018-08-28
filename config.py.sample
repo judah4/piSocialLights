@@ -1,0 +1,5 @@
+# https://python-twitter.readthedocs.io/en/latest/getting_started.html
+consumer_key = ''
+consumer_secret = ''
+access_token_key = ''
+access_token_secret = ''
