@@ -5,3 +5,11 @@ api = twitter.Api(consumer_key=config.twitter_consumer_key,
                   consumer_secret=config.twitter_consumer_secret,
                   access_token_key=config.twitter_access_token_key,
                   access_token_secret=config.twitter_access_token_secret)
+
+print(api.VerifyCredentials())
+
+user = "@dragonjudah"
+
+statuses = api.GetUserTimeline(screen_name=user)
+
+print([s for s in statuses])
